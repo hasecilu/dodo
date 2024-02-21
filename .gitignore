@@ -1,2 +1,3 @@
-__pycache__/
 test_**.sh
+__pycache__/
+cut_list/__pycache__/
