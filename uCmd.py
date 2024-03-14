@@ -283,6 +283,7 @@ class hackedLine(DraftTools.Line):
       s=FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetInt("gridSize")
       sc=[float(x*s) for x in [1,1,.2]]
       varrow =arrow(FreeCAD.DraftWorkingPlane.getPlacement(),scale=sc,offset=s)
+    # TODO: translation
       offset=QInputDialog.getInt(None,'Offset Work Plane','Offset: ')
       if offset[1]:
         offsetWP(offset[0])

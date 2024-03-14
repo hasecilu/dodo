@@ -20,6 +20,7 @@ class QueryForm(QtGui.QDialog): #QWidget):
     self.setWindowTitle("QueryTool")
     self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
     self.setMouseTracking(True)
+    # TODO: translation
     #1st row
     self.labName = QtGui.QLabel("(seleziona un oggetto)", self)
     #2nd row
@@ -118,6 +119,7 @@ class rotWPForm(QDialog): #QWidget):
   '''
   Dialog to rotate the working plane about its axis.
   '''
+    # TODO: translation
   def __init__(self,winTitle='Rotate WP', icon='rotWP.svg'):
     super(rotWPForm,self).__init__()
     self.move(QPoint(100,250))

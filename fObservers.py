@@ -29,6 +29,7 @@ class frameObserverPrototype(object):
         
 class frameItObserver(frameObserverPrototype): 
     def __init__(self):
+    # TODO: translation
       super(frameItObserver,self).__init__('Select one beam and one edge')
       self.beam=self.edge=None
     def addSelection(self,doc,obj,sub,pnt):
