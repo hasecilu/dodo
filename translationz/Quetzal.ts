@@ -8,7 +8,8 @@
         <location filename="../pFeatures.py" line="214"/>
         <location filename="../pFeatures.py" line="626"/>
         <location filename="../pFeatures.py" line="723"/>
-        <location filename="../pFeatures.py" line="1053"/>
+        <location filename="../pFeatures.py" line="1051"/>
+        <location filename="../pFeatures.py" line="1105"/>
         <source>Outside diameter</source>
         <translation type="unfinished"></translation>
     </message>
@@ -19,6 +20,7 @@
         <location filename="../pFeatures.py" line="519"/>
         <location filename="../pFeatures.py" line="632"/>
         <location filename="../pFeatures.py" line="729"/>
+        <location filename="../pFeatures.py" line="1111"/>
         <source>Wall thickness</source>
         <translation type="unfinished"></translation>
     </message>
@@ -26,13 +28,13 @@
         <location filename="../pFeatures.py" line="136"/>
         <location filename="../pFeatures.py" line="226"/>
         <location filename="../pFeatures.py" line="638"/>
-        <location filename="../pFeatures.py" line="1059"/>
+        <location filename="../pFeatures.py" line="1057"/>
         <source>Inside diameter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pFeatures.py" line="142"/>
-        <location filename="../pFeatures.py" line="1065"/>
+        <location filename="../pFeatures.py" line="1063"/>
         <source>Length of tube</source>
         <translation type="unfinished"></translation>
     </message>
@@ -51,7 +53,7 @@
     </message>
     <message>
         <location filename="../pFeatures.py" line="238"/>
-        <location filename="../pFeatures.py" line="1121"/>
+        <location filename="../pFeatures.py" line="1119"/>
         <source>Bend Radius</source>
         <translation type="unfinished"></translation>
     </message>
@@ -127,7 +129,7 @@
     </message>
     <message>
         <location filename="../pFeatures.py" line="529"/>
-        <source>Make the lenght variable</source>
+        <source>Make the length variable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -146,8 +148,168 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../fFeatures.py" line="731"/>
+        <location filename="../fFeatures.py" line="1051"/>
+        <source>The extension of the tail</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="737"/>
+        <location filename="../fFeatures.py" line="1057"/>
+        <source>The extension of the head</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="743"/>
+        <location filename="../fFeatures.py" line="1063"/>
+        <source>The rotation of the section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="901"/>
+        <location filename="../fFeatures.py" line="993"/>
+        <source>Type of frameFeature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="907"/>
+        <source>Size of frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../pFeatures.py" line="735"/>
         <source>The group.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="926"/>
+        <source>the edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="932"/>
+        <source>the profile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="999"/>
+        <source>The beams names</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1011"/>
+        <source>The profile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1291"/>
+        <location filename="../fFeatures.py" line="1342"/>
+        <location filename="../fFeatures.py" line="1379"/>
+        <location filename="../fFeatures.py" line="1413"/>
+        <location filename="../fFeatures.py" line="1454"/>
+        <location filename="../fFeatures.py" line="1495"/>
+        <location filename="../fFeatures.py" line="1536"/>
+        <location filename="../fFeatures.py" line="1596"/>
+        <location filename="../fFeatures.py" line="1656"/>
+        <source>Type of section</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1297"/>
+        <location filename="../fFeatures.py" line="1348"/>
+        <location filename="../fFeatures.py" line="1419"/>
+        <location filename="../fFeatures.py" line="1460"/>
+        <location filename="../fFeatures.py" line="1501"/>
+        <location filename="../fFeatures.py" line="1542"/>
+        <source>Width of the beam</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1303"/>
+        <location filename="../fFeatures.py" line="1354"/>
+        <location filename="../fFeatures.py" line="1425"/>
+        <location filename="../fFeatures.py" line="1466"/>
+        <location filename="../fFeatures.py" line="1507"/>
+        <location filename="../fFeatures.py" line="1548"/>
+        <location filename="../fFeatures.py" line="1608"/>
+        <location filename="../fFeatures.py" line="1668"/>
+        <source>Height of the beam</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1309"/>
+        <source>Thickness of the vertical sides</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1315"/>
+        <source>Thickness of the horizontal sides</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1385"/>
+        <source>Diameter of the beam</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1391"/>
+        <source>Thickness</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1431"/>
+        <location filename="../fFeatures.py" line="1437"/>
+        <source>Thickness of the webs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1472"/>
+        <location filename="../fFeatures.py" line="1478"/>
+        <location filename="../fFeatures.py" line="1513"/>
+        <source>Thickness of the web</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1519"/>
+        <source>Thickness of the flanges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1554"/>
+        <source>Width of the flanges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1560"/>
+        <location filename="../fFeatures.py" line="1620"/>
+        <location filename="../fFeatures.py" line="1680"/>
+        <source>Thickness 1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1566"/>
+        <location filename="../fFeatures.py" line="1626"/>
+        <location filename="../fFeatures.py" line="1686"/>
+        <source>Thickness 2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1572"/>
+        <location filename="../fFeatures.py" line="1632"/>
+        <location filename="../fFeatures.py" line="1692"/>
+        <source>Thickness 3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1602"/>
+        <location filename="../fFeatures.py" line="1662"/>
+        <source>Width of the bottom flange</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1614"/>
+        <location filename="../fFeatures.py" line="1674"/>
+        <source>Width of the top flange</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -186,240 +348,9 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="884"/>
+        <location filename="../pFeatures.py" line="52"/>
+        <location filename="../pFeatures.py" line="882"/>
         <source>Ports position relative to the origin of Shape</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pFeatures.py" line="927"/>
-        <source>Tank&apos;s length</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pFeatures.py" line="933"/>
-        <source>Tank&apos;s width</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pFeatures.py" line="939"/>
-        <source>Tank&apos;s height</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pFeatures.py" line="945"/>
-        <source>Thikness of tank&apos;s shell</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pFeatures.py" line="951"/>
-        <source>Thikness of tank&apos;s top</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pFeatures.py" line="1127"/>
-        <source>The tubes of the branch.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pFeatures.py" line="1133"/>
-        <source>The curves of the branch.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pFeatures.py" line="1139"/>
-        <source>The path.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>App::PropertyFloat</name>
-    <message>
-        <location filename="../fFeatures.py" line="732"/>
-        <location filename="../fFeatures.py" line="1058"/>
-        <source>The extension of the tail</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="740"/>
-        <location filename="../fFeatures.py" line="1066"/>
-        <source>The extension of the head</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="748"/>
-        <location filename="../fFeatures.py" line="1074"/>
-        <source>The rotation of the section</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pFeatures.py" line="58"/>
-        <source>Flow factor (m3/h/bar)</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>App::PropertyLength</name>
-    <message>
-        <location filename="../fFeatures.py" line="1308"/>
-        <location filename="../fFeatures.py" line="1361"/>
-        <location filename="../fFeatures.py" line="1432"/>
-        <location filename="../fFeatures.py" line="1473"/>
-        <location filename="../fFeatures.py" line="1514"/>
-        <location filename="../fFeatures.py" line="1555"/>
-        <source>Width of the beam</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1314"/>
-        <location filename="../fFeatures.py" line="1367"/>
-        <location filename="../fFeatures.py" line="1438"/>
-        <location filename="../fFeatures.py" line="1479"/>
-        <location filename="../fFeatures.py" line="1520"/>
-        <location filename="../fFeatures.py" line="1561"/>
-        <location filename="../fFeatures.py" line="1621"/>
-        <location filename="../fFeatures.py" line="1681"/>
-        <source>Height of the beam</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1320"/>
-        <source>Thickness of the vertical sides</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1328"/>
-        <source>Thickness of the horizontal sides</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1398"/>
-        <source>Diameter of the beam</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1404"/>
-        <source>Thickness</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1444"/>
-        <location filename="../fFeatures.py" line="1450"/>
-        <source>Thickness of the webs</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1485"/>
-        <location filename="../fFeatures.py" line="1491"/>
-        <location filename="../fFeatures.py" line="1526"/>
-        <source>Thickness of the web</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1532"/>
-        <source>Thickness of the flanges</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1567"/>
-        <source>Width of the flanges</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1573"/>
-        <location filename="../fFeatures.py" line="1633"/>
-        <location filename="../fFeatures.py" line="1693"/>
-        <source>Thickness 1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1579"/>
-        <location filename="../fFeatures.py" line="1639"/>
-        <location filename="../fFeatures.py" line="1699"/>
-        <source>Thickness 2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1585"/>
-        <location filename="../fFeatures.py" line="1645"/>
-        <location filename="../fFeatures.py" line="1705"/>
-        <source>Thickness 3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1615"/>
-        <location filename="../fFeatures.py" line="1675"/>
-        <source>Width of the bottom flange</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1627"/>
-        <location filename="../fFeatures.py" line="1687"/>
-        <source>Width of the top flange</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pFeatures.py" line="1107"/>
-        <source>Outside diameter</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pFeatures.py" line="1113"/>
-        <source>Wall thickness</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>App::PropertyLink</name>
-    <message>
-        <location filename="../fFeatures.py" line="931"/>
-        <source>the edges</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="937"/>
-        <source>the profile</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1010"/>
-        <source>The path.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1016"/>
-        <source>The profile</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>App::PropertyString</name>
-    <message>
-        <location filename="../fFeatures.py" line="906"/>
-        <location filename="../fFeatures.py" line="998"/>
-        <source>Type of frameFeature</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="912"/>
-        <source>Size of frame</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="920"/>
-        <source>The group.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../fFeatures.py" line="1302"/>
-        <location filename="../fFeatures.py" line="1355"/>
-        <location filename="../fFeatures.py" line="1392"/>
-        <location filename="../fFeatures.py" line="1426"/>
-        <location filename="../fFeatures.py" line="1467"/>
-        <location filename="../fFeatures.py" line="1508"/>
-        <location filename="../fFeatures.py" line="1549"/>
-        <location filename="../fFeatures.py" line="1609"/>
-        <location filename="../fFeatures.py" line="1669"/>
-        <source>Type of section</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -437,20 +368,58 @@
         <source>Nominal diameter</source>
         <translation type="unfinished"></translation>
     </message>
-</context>
-<context>
-    <name>App::PropertyStringList</name>
     <message>
-        <location filename="../fFeatures.py" line="1004"/>
-        <source>The beams names</source>
+        <location filename="../pFeatures.py" line="58"/>
+        <source>Flow factor (m3/h/bar)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pFeatures.py" line="925"/>
+        <source>Tank&apos;s length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pFeatures.py" line="931"/>
+        <source>Tank&apos;s width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pFeatures.py" line="937"/>
+        <source>Tank&apos;s height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pFeatures.py" line="943"/>
+        <source>Thikness of tank&apos;s shell</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pFeatures.py" line="949"/>
+        <source>Thikness of tank&apos;s top</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pFeatures.py" line="1125"/>
+        <source>The tubes of the branch.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pFeatures.py" line="1131"/>
+        <source>The curves of the branch.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../fFeatures.py" line="1005"/>
+        <location filename="../pFeatures.py" line="1137"/>
+        <source>The path.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
-    <name>App::PropertyVectorList</name>
+    <name>App::PropertyString</name>
     <message>
-        <location filename="../pFeatures.py" line="52"/>
-        <source>Ports position relative to the origin of Shape</source>
+        <location filename="../fFeatures.py" line="915"/>
+        <source>The group.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -843,11 +812,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogz/fbranch.ui" line="182"/>
-        <source>&lt;no target selected&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../dialogz/fbranch.ui" line="35"/>
         <source>&lt;degrees&gt;</source>
         <translation type="unfinished"></translation>
@@ -910,6 +874,11 @@
     <message>
         <location filename="../dialogz/fbranch.ui" line="172"/>
         <source>hotkeys: &quot;S&quot; to select, &quot;X&quot; to trim</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../dialogz/fbranch.ui" line="182"/>
+        <source>&lt;no target selected&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1321,19 +1290,6 @@ profile</source>
     </message>
 </context>
 <context>
-    <name>FrameBranchManager</name>
-    <message>
-        <location filename="../CFrame.py" line="375"/>
-        <source>FrameBranch Manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CFrame.py" line="378"/>
-        <source>Open FrameBranch Manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>Part::Feature</name>
     <message>
         <location filename="../pCmd.py" line="137"/>
@@ -1385,15 +1341,7 @@ profile</source>
     </message>
 </context>
 <context>
-    <name>Sketcher::SketchObject</name>
-    <message>
-        <location filename="../pCmd.py" line="1446"/>
-        <source>pipeRoute</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>adjustFrameAngle</name>
+    <name>Quetzal_AdjustFrameAngle</name>
     <message>
         <location filename="../CFrame.py" line="282"/>
         <source>adjustFrameAngle</source>
@@ -1406,7 +1354,7 @@ profile</source>
     </message>
 </context>
 <context>
-    <name>alignEdge</name>
+    <name>Quetzal_AlignEdge</name>
     <message>
         <location filename="../CFrame.py" line="210"/>
         <source>Mate the edges</source>
@@ -1419,7 +1367,7 @@ profile</source>
     </message>
 </context>
 <context>
-    <name>alignFlange</name>
+    <name>Quetzal_AlignFlange</name>
     <message>
         <location filename="../CFrame.py" line="116"/>
         <source>alignFlange</source>
@@ -1432,48 +1380,20 @@ profile</source>
     </message>
 </context>
 <context>
-    <name>attach2tube</name>
+    <name>Quetzal_Attach2tube</name>
     <message>
-        <location filename="../CPipe.py" line="389"/>
+        <location filename="../CPipe.py" line="383"/>
         <source>Attach  to tube</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../CPipe.py" line="392"/>
+        <location filename="../CPipe.py" line="386"/>
         <source>Attach one pype to the nearest port of selected pipe</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
-    <name>breakForm</name>
-    <message>
-        <location filename="../pForms.py" line="1161"/>
-        <source>Break the pipes</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pForms.py" line="1181"/>
-        <source>Length</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pForms.py" line="1183"/>
-        <source>&lt;reference&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pForms.py" line="1184"/>
-        <source>PypeLine:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../pForms.py" line="1186"/>
-        <source>&lt;none&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>breakPipe</name>
+    <name>Quetzal_BreakPipe</name>
     <message>
         <location filename="../CPipe.py" line="189"/>
         <source>Break the pipe</source>
@@ -1486,71 +1406,619 @@ profile</source>
     </message>
 </context>
 <context>
-    <name>capQM</name>
+    <name>Quetzal_CreateCutList</name>
     <message>
-        <location filename="../CPipe.py" line="598"/>
-        <source>QM for caps</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>cutListCommand</name>
-    <message>
-        <location filename="../cut_list/cut_list_commands.py" line="15"/>
+        <location filename="../cut_list/cut_list_commands.py" line="17"/>
         <source>createCutList</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../cut_list/cut_list_commands.py" line="16"/>
+        <location filename="../cut_list/cut_list_commands.py" line="20"/>
         <source>Create a new Cut List from Dodo Beams</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
-    <name>dodo</name>
+    <name>Quetzal_DpCalc</name>
     <message>
-        <location filename="../InitGui.py" line="161"/>
-        <location filename="../InitGui.py" line="175"/>
-        <source>Utils</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../InitGui.py" line="165"/>
-        <source>frametools</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../InitGui.py" line="171"/>
-        <source>pypetools</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../InitGui.py" line="173"/>
-        <source>Frame tools</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../InitGui.py" line="174"/>
-        <source>Pype tools</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../InitGui.py" line="176"/>
-        <source>QkMenus</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>dpCalc</name>
-    <message>
-        <location filename="../CUtils.py" line="189"/>
+        <location filename="../CUtils.py" line="187"/>
         <source>Pressure loss calculator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../CUtils.py" line="193"/>
+        <location filename="../CUtils.py" line="191"/>
         <source>Calculate pressure loss in &quot;pypes&quot; using ChEDL libraries.
  See __doc__ of the module for futher information.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_Extend</name>
+    <message>
+        <location filename="../CFrame.py" line="267"/>
+        <source>extendTheBeam</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CFrame.py" line="270"/>
+        <source>Extend the beam either to a face, a vertex or the c.o.m. of the selected object</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_Extend1intersection</name>
+    <message>
+        <location filename="../CPipe.py" line="273"/>
+        <location filename="../CPipe.py" line="276"/>
+        <source>Extends pipe to intersection</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_Extend2intersection</name>
+    <message>
+        <location filename="../CPipe.py" line="250"/>
+        <location filename="../CPipe.py" line="253"/>
+        <source>Extends pipes to intersection</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_Flat</name>
+    <message>
+        <location filename="../CPipe.py" line="229"/>
+        <source>Fit one elbow</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CPipe.py" line="230"/>
+        <source>Place the elbow between two pipes or beams</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_FrameBranchManager</name>
+    <message>
+        <location filename="../CFrame.py" line="375"/>
+        <source>FrameBranch Manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CFrame.py" line="378"/>
+        <source>Open FrameBranch Manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_FrameIt</name>
+    <message>
+        <location filename="../CFrame.py" line="45"/>
+        <source>Place one-beam over one-edge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CFrame.py" line="48"/>
+        <source>Place one beam after the other over the edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_HackedL</name>
+    <message>
+        <location filename="../CUtils.py" line="150"/>
+        <source>draw a DWire</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CUtils.py" line="154"/>
+        <source>WP is re-positioned at each point. Possible to spin and offset it.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_InsertAnyz</name>
+    <message>
+        <location filename="../CPipe.py" line="418"/>
+        <source>Insert any shape</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CPipe.py" line="419"/>
+        <source>Insert a STEP, IGES or BREP</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_InsertBranch</name>
+    <message>
+        <location filename="../CPipe.py" line="173"/>
+        <source>Insert a branch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CPipe.py" line="174"/>
+        <source>Insert a PypeBranch</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_InsertCap</name>
+    <message>
+        <location filename="../CPipe.py" line="108"/>
+        <location filename="../CPipe.py" line="109"/>
+        <source>Insert a cap</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_InsertElbow</name>
+    <message>
+        <location filename="../CPipe.py" line="76"/>
+        <location filename="../CPipe.py" line="77"/>
+        <source>Insert a curve</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_InsertFlange</name>
+    <message>
+        <location filename="../CPipe.py" line="124"/>
+        <location filename="../CPipe.py" line="125"/>
+        <source>Insert a flange</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_InsertPath</name>
+    <message>
+        <location filename="../CFrame.py" line="319"/>
+        <source>insert Path</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CFrame.py" line="364"/>
+        <source>Creates one path along selected edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_InsertPipe</name>
+    <message>
+        <location filename="../CPipe.py" line="60"/>
+        <location filename="../CPipe.py" line="61"/>
+        <source>Insert a tube</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_InsertPypeLine</name>
+    <message>
+        <location filename="../CPipe.py" line="156"/>
+        <source>PypeLine Manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CPipe.py" line="157"/>
+        <source>Open PypeLine Manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_InsertReduct</name>
+    <message>
+        <location filename="../CPipe.py" line="92"/>
+        <location filename="../CPipe.py" line="93"/>
+        <source>Insert a reduction</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_InsertRoute</name>
+    <message>
+        <location filename="../CPipe.py" line="450"/>
+        <source>Insert a pipe route</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CPipe.py" line="453"/>
+        <source>Create a sketch attached to a circular edge</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_InsertSection</name>
+    <message>
+        <location filename="../CFrame.py" line="389"/>
+        <source>Insert sections</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CFrame.py" line="395"/>
+        <source>Creates customized beam profiles 2D</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_InsertTank</name>
+    <message>
+        <location filename="../CPipe.py" line="434"/>
+        <source>Insert a tank</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CPipe.py" line="435"/>
+        <source>Create tank and nozzles</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_InsertUbolt</name>
+    <message>
+        <location filename="../CPipe.py" line="140"/>
+        <location filename="../CPipe.py" line="141"/>
+        <source>Insert a U-bolt</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_InsertValve</name>
+    <message>
+        <location filename="../CPipe.py" line="364"/>
+        <location filename="../CPipe.py" line="365"/>
+        <source>Insert a valve</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_JoinPype</name>
+    <message>
+        <location filename="../CPipe.py" line="346"/>
+        <source>Join pypes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CPipe.py" line="347"/>
+        <source>Select the part-pype and the port</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_Laydown</name>
+    <message>
+        <location filename="../CPipe.py" line="298"/>
+        <source>Lay-down the pipe</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CPipe.py" line="299"/>
+        <source>Lay-down the pipe on the support plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_LevelBeam</name>
+    <message>
+        <location filename="../CFrame.py" line="177"/>
+        <source>Flush the surfaces</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CFrame.py" line="180"/>
+        <source>Shift the beams to line-up the faces to the first selection (faces must be //)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_MakeHeader</name>
+    <message>
+        <location filename="../CPipe.py" line="471"/>
+        <source>Connect to header</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CPipe.py" line="475"/>
+        <source>Connect branches to one header pipe
+Branches and header&apos;s axes must be ortho</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_MateEdges</name>
+    <message>
+        <location filename="../CPipe.py" line="211"/>
+        <source>Mate pipes edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CPipe.py" line="214"/>
+        <source>Mate two terminations through their edges</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_MoveHandle</name>
+    <message>
+        <location filename="../CUtils.py" line="171"/>
+        <source>Move objects</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CUtils.py" line="172"/>
+        <source>Move quickly objects inside viewport</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_MoveWorkPlane</name>
+    <message>
+        <location filename="../CUtils.py" line="73"/>
+        <source>align Workplane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CUtils.py" line="77"/>
+        <source>Moves and rotates the drafting workplane with points, edges and faces</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_OffsetWorkPlane</name>
+    <message>
+        <location filename="../CUtils.py" line="117"/>
+        <source>Offset Work Plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CUtils.py" line="118"/>
+        <source>Offset: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CUtils.py" line="131"/>
+        <source>offset Workplane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CUtils.py" line="134"/>
+        <source>Shifts the WP along its normal.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_PivotBeam</name>
+    <message>
+        <location filename="../CFrame.py" line="228"/>
+        <source>pivotTheBeam</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CFrame.py" line="231"/>
+        <source>Rotates the beam around an axis (edge or center-of-curvature)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_Point2point</name>
+    <message>
+        <location filename="../CPipe.py" line="401"/>
+        <source>draw a tube point-to-point</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CPipe.py" line="402"/>
+        <source>Click on subsequent points.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_QueryModel</name>
+    <message>
+        <location filename="../CUtils.py" line="43"/>
+        <source>query the model</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CUtils.py" line="44"/>
+        <source>Click objects to print infos</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_Raiseup</name>
+    <message>
+        <location filename="../CPipe.py" line="327"/>
+        <source>Raise-up the support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CPipe.py" line="328"/>
+        <source>Raise the support to the pipe</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_ReverseBeam</name>
+    <message>
+        <location filename="../CFrame.py" line="84"/>
+        <source>Reverse orientation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CFrame.py" line="101"/>
+        <source>Reverse the orientation of selected objects</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_RotJoin</name>
+    <message>
+        <location filename="../CFrame.py" line="301"/>
+        <source>rotJoinEdge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CFrame.py" line="304"/>
+        <source>Rotates and align the beam according another edge</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_RotateWorkPlane</name>
+    <message>
+        <location filename="../CUtils.py" line="93"/>
+        <source>rotate Workplane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CUtils.py" line="96"/>
+        <source>Spin the Draft working plane about one of its axes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_SelectSolids</name>
+    <message>
+        <location filename="../CUtils.py" line="210"/>
+        <source>Select solids</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CUtils.py" line="214"/>
+        <source>Grab all solids or those partially selected
+ to export in .step format</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_ShiftBeam</name>
+    <message>
+        <location filename="../CFrame.py" line="144"/>
+        <source>shiftTheBeam</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CFrame.py" line="147"/>
+        <source>Translate objects by vectors defined on existing geometry</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_SpinSect</name>
+    <message>
+        <location filename="../CFrame.py" line="64"/>
+        <source>Spin beams by 45 deg.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CFrame.py" line="67"/>
+        <source>Rotates the section of the beam by 45 degrees</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Quetzal_StretchBeam</name>
+    <message>
+        <location filename="../CFrame.py" line="250"/>
+        <source>stretchTheBeam</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../CFrame.py" line="253"/>
+        <source>Changes the length of the beam, either according a preselected edge or a direct input</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Sketcher::SketchObject</name>
+    <message>
+        <location filename="../pCmd.py" line="1446"/>
+        <source>pipeRoute</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Workbench</name>
+    <message>
+        <location filename="../InitGui.py" line="46"/>
+        <source>Dodo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../InitGui.py" line="49"/>
+        <source>Dodo workbench 
+(substitute of flamingo for Py3/Qt5)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../InitGui.py" line="137"/>
+        <source>pypetools</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../InitGui.py" line="139"/>
+        <source>Frame tools</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../InitGui.py" line="140"/>
+        <source>Pype tools</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../InitGui.py" line="141"/>
+        <location filename="../InitGui.py" line="148"/>
+        <source>Utils</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../InitGui.py" line="142"/>
+        <source>QkMenus</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../InitGui.py" line="146"/>
+        <source>Frames</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../InitGui.py" line="147"/>
+        <source>Pypes</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>breakForm</name>
+    <message>
+        <location filename="../pForms.py" line="1155"/>
+        <source>Break the pipes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pForms.py" line="1175"/>
+        <source>Length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pForms.py" line="1177"/>
+        <source>&lt;reference&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pForms.py" line="1178"/>
+        <source>PypeLine:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../pForms.py" line="1180"/>
+        <source>&lt;none&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>capQM</name>
+    <message>
+        <location filename="../CPipe.py" line="592"/>
+        <source>QM for caps</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1607,39 +2075,8 @@ profile</source>
 <context>
     <name>elbowQM</name>
     <message>
-        <location filename="../CPipe.py" line="544"/>
+        <location filename="../CPipe.py" line="538"/>
         <source>QM for elbows</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>extend</name>
-    <message>
-        <location filename="../CFrame.py" line="267"/>
-        <source>extendTheBeam</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CFrame.py" line="270"/>
-        <source>Extend the beam either to a face, a vertex or the c.o.m. of the selected object</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>extend1intersection</name>
-    <message>
-        <location filename="../CPipe.py" line="275"/>
-        <location filename="../CPipe.py" line="278"/>
-        <source>Extends pipe to intersection</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>extend2intersection</name>
-    <message>
-        <location filename="../CPipe.py" line="252"/>
-        <location filename="../CPipe.py" line="255"/>
-        <source>Extends pipes to intersection</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1724,623 +2161,315 @@ profile</source>
 <context>
     <name>flangeQM</name>
     <message>
-        <location filename="../CPipe.py" line="562"/>
+        <location filename="../CPipe.py" line="556"/>
         <source>QM for flanges</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>flat</name>
-    <message>
-        <location filename="../CPipe.py" line="229"/>
-        <source>Fit one elbow</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CPipe.py" line="232"/>
-        <source>Place the elbow between two pipes or beams</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>frameIt</name>
-    <message>
-        <location filename="../CFrame.py" line="45"/>
-        <source>Place one-beam over one-edge</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CFrame.py" line="48"/>
-        <source>Place one beam after the other over the edges</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>hackedL</name>
-    <message>
-        <location filename="../CUtils.py" line="150"/>
-        <source>draw a DWire</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CUtils.py" line="154"/>
-        <source>WP is re-positioned at each point. Possible to spin and offset it.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>insertAnyz</name>
-    <message>
-        <location filename="../CPipe.py" line="424"/>
-        <source>Insert any shape</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CPipe.py" line="425"/>
-        <source>Insert a STEP, IGES or BREP</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>insertBranch</name>
-    <message>
-        <location filename="../CPipe.py" line="173"/>
-        <source>Insert a branch</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CPipe.py" line="174"/>
-        <source>Insert a PypeBranch</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>insertBranchForm</name>
     <message>
-        <location filename="../pForms.py" line="1071"/>
+        <location filename="../pForms.py" line="1065"/>
         <source>Insert a branch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="1083"/>
+        <location filename="../pForms.py" line="1077"/>
         <source>&lt;name&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="1087"/>
+        <location filename="../pForms.py" line="1081"/>
         <source>&lt;bend radius&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>insertCap</name>
-    <message>
-        <location filename="../CPipe.py" line="108"/>
-        <location filename="../CPipe.py" line="109"/>
-        <source>Insert a cap</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>insertCapForm</name>
     <message>
-        <location filename="../pForms.py" line="802"/>
+        <location filename="../pForms.py" line="796"/>
         <source>Insert caps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="807"/>
+        <location filename="../pForms.py" line="801"/>
         <source>Reverse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="810"/>
+        <location filename="../pForms.py" line="804"/>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>insertElbow</name>
-    <message>
-        <location filename="../CPipe.py" line="76"/>
-        <location filename="../CPipe.py" line="77"/>
-        <source>Insert a curve</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>insertElbowForm</name>
     <message>
-        <location filename="../pForms.py" line="241"/>
+        <location filename="../pForms.py" line="235"/>
         <source>Insert elbows</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="252"/>
+        <location filename="../pForms.py" line="246"/>
         <source>&lt;bend angle&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="257"/>
+        <location filename="../pForms.py" line="251"/>
         <source>&lt;bend radius&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="261"/>
+        <location filename="../pForms.py" line="255"/>
         <source>Trim/Extend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="264"/>
+        <location filename="../pForms.py" line="258"/>
         <source>Reverse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="267"/>
+        <location filename="../pForms.py" line="261"/>
         <source>Apply</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="283"/>
+        <location filename="../pForms.py" line="277"/>
         <source>0 deg</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="352"/>
+        <location filename="../pForms.py" line="346"/>
         <source>Wrong selection
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="359"/>
+        <location filename="../pForms.py" line="353"/>
         <source> deg</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>insertFlange</name>
-    <message>
-        <location filename="../CPipe.py" line="124"/>
-        <location filename="../CPipe.py" line="125"/>
-        <source>Insert a flange</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>insertFlangeForm</name>
     <message>
-        <location filename="../pForms.py" line="401"/>
+        <location filename="../pForms.py" line="395"/>
         <source>Insert flanges</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="411"/>
+        <location filename="../pForms.py" line="405"/>
         <source>Reverse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="416"/>
+        <location filename="../pForms.py" line="410"/>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>insertPath</name>
-    <message>
-        <location filename="../CFrame.py" line="319"/>
-        <source>insert Path</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CFrame.py" line="364"/>
-        <source>Creates one path along selected edges</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>insertPipe</name>
-    <message>
-        <location filename="../CPipe.py" line="60"/>
-        <location filename="../CPipe.py" line="61"/>
-        <source>Insert a tube</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>insertPipeForm</name>
     <message>
-        <location filename="../pForms.py" line="107"/>
+        <location filename="../pForms.py" line="101"/>
         <source>Insert pipes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="118"/>
+        <location filename="../pForms.py" line="112"/>
         <source>&lt;length&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="123"/>
+        <location filename="../pForms.py" line="117"/>
         <source>Reverse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="126"/>
+        <location filename="../pForms.py" line="120"/>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>insertPypeLine</name>
-    <message>
-        <location filename="../CPipe.py" line="156"/>
-        <source>PypeLine Manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CPipe.py" line="157"/>
-        <source>Open PypeLine Manager</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>insertPypeLineForm</name>
     <message>
-        <location filename="../pForms.py" line="865"/>
+        <location filename="../pForms.py" line="859"/>
         <source>PypeLine Manager</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="877"/>
+        <location filename="../pForms.py" line="871"/>
         <source>&lt;name&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="880"/>
+        <location filename="../pForms.py" line="874"/>
         <source>Redraw</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="883"/>
+        <location filename="../pForms.py" line="877"/>
         <source>Part list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="886"/>
+        <location filename="../pForms.py" line="880"/>
         <source>Color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="889"/>
+        <location filename="../pForms.py" line="883"/>
         <source>Get Path</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="892"/>
+        <location filename="../pForms.py" line="886"/>
         <source>Get Profile</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="896"/>
+        <location filename="../pForms.py" line="890"/>
         <source>&lt;new&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>insertReduct</name>
-    <message>
-        <location filename="../CPipe.py" line="92"/>
-        <location filename="../CPipe.py" line="93"/>
-        <source>Insert a reduction</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>insertReductForm</name>
     <message>
-        <location filename="../pForms.py" line="504"/>
+        <location filename="../pForms.py" line="498"/>
         <source>Insert reductions</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="520"/>
+        <location filename="../pForms.py" line="514"/>
         <source>Reverse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="522"/>
+        <location filename="../pForms.py" line="516"/>
         <source>Apply</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="529"/>
+        <location filename="../pForms.py" line="523"/>
         <source>Eccentric</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>insertRoute</name>
-    <message>
-        <location filename="../CPipe.py" line="456"/>
-        <source>Insert a pipe route</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CPipe.py" line="459"/>
-        <source>Create a sketch attached to a circular edge</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>insertRouteForm</name>
     <message>
-        <location filename="../pForms.py" line="1807"/>
+        <location filename="../pForms.py" line="1801"/>
         <source>&lt;select an edge&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>insertSection</name>
-    <message>
-        <location filename="../CFrame.py" line="389"/>
-        <source>Insert sections</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CFrame.py" line="395"/>
-        <source>Creates customized beam profiles 2D</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>insertTank</name>
-    <message>
-        <location filename="../CPipe.py" line="440"/>
-        <source>Insert a tank</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CPipe.py" line="441"/>
-        <source>Create tank and nozzles</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>insertTankForm</name>
     <message>
-        <location filename="../pForms.py" line="1665"/>
+        <location filename="../pForms.py" line="1659"/>
         <source>doing combine</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="1700"/>
+        <location filename="../pForms.py" line="1694"/>
         <source>files read</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="1702"/>
+        <location filename="../pForms.py" line="1696"/>
         <source>files not read</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="1709"/>
+        <location filename="../pForms.py" line="1703"/>
         <source>listNozzles: %s</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>insertUbolt</name>
-    <message>
-        <location filename="../CPipe.py" line="140"/>
-        <location filename="../CPipe.py" line="141"/>
-        <source>Insert a U-bolt</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>insertUboltForm</name>
     <message>
-        <location filename="../pForms.py" line="681"/>
+        <location filename="../pForms.py" line="675"/>
         <source>Insert U-bolt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="690"/>
+        <location filename="../pForms.py" line="684"/>
         <source>- no ref. face -</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="694"/>
+        <location filename="../pForms.py" line="688"/>
         <source>Ref. face</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="699"/>
+        <location filename="../pForms.py" line="693"/>
         <source> Head</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="701"/>
+        <location filename="../pForms.py" line="695"/>
         <source> Middle</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="702"/>
+        <location filename="../pForms.py" line="696"/>
         <source> Tail</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>insertValve</name>
-    <message>
-        <location filename="../CPipe.py" line="370"/>
-        <location filename="../CPipe.py" line="371"/>
-        <source>Insert a valve</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>insertValveForm</name>
     <message>
-        <location filename="../pForms.py" line="1375"/>
+        <location filename="../pForms.py" line="1369"/>
         <source>Insert valves</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="1386"/>
+        <location filename="../pForms.py" line="1380"/>
         <source>Reverse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="1389"/>
+        <location filename="../pForms.py" line="1383"/>
         <source>Apply</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="1399"/>
+        <location filename="../pForms.py" line="1393"/>
         <source> Insert in pipe</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>joinPype</name>
-    <message>
-        <location filename="../CPipe.py" line="350"/>
-        <source>Join pypes</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CPipe.py" line="353"/>
-        <source>Select the part-pype and the port</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>laydown</name>
-    <message>
-        <location filename="../CPipe.py" line="300"/>
-        <source>Lay-down the pipe</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CPipe.py" line="303"/>
-        <source>Lay-down the pipe on the support plane</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>levelBeam</name>
-    <message>
-        <location filename="../CFrame.py" line="177"/>
-        <source>Flush the surfaces</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CFrame.py" line="180"/>
-        <source>Shift the beams to line-up the faces to the first selection (faces must be //)</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>makeHeader</name>
-    <message>
-        <location filename="../CPipe.py" line="477"/>
-        <source>Connect to header</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CPipe.py" line="481"/>
-        <source>Connect branches to one header pipe
-Branches and header&apos;s axes must be ortho</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>makeframenbranch</name>
     <message>
-        <location filename="../fFeatures.py" line="625"/>
+        <location filename="../fFeatures.py" line="626"/>
         <source>Travatura</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>mateEdges</name>
-    <message>
-        <location filename="../CPipe.py" line="211"/>
-        <source>Mate pipes edges</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CPipe.py" line="214"/>
-        <source>Mate two terminations through their edges</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>mouseActionB1</name>
     <message>
-        <location filename="../fFeatures.py" line="667"/>
+        <location filename="../fFeatures.py" line="668"/>
         <source>____TAIL</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>moveHandle</name>
-    <message>
-        <location filename="../CUtils.py" line="171"/>
-        <source>Move objects</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CUtils.py" line="174"/>
-        <source>Move quickly objects inside viewport</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>moveWorkPlane</name>
-    <message>
-        <location filename="../CUtils.py" line="73"/>
-        <source>align Workplane</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CUtils.py" line="77"/>
-        <source>Moves and rotates the drafting workplane with points, edges and faces</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>offsetWorkPlane</name>
-    <message>
-        <location filename="../CUtils.py" line="117"/>
-        <source>Offset Work Plane</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CUtils.py" line="118"/>
-        <source>Offset: </source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CUtils.py" line="131"/>
-        <source>offset Workplane</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CUtils.py" line="134"/>
-        <source>Shifts the WP alongg its normal.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>pForms</name>
     <message>
-        <location filename="../pForms.py" line="1510"/>
+        <location filename="../pForms.py" line="1504"/>
         <source>Offset Work Plane</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="1511"/>
+        <location filename="../pForms.py" line="1505"/>
         <source>Offset: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -2348,46 +2477,20 @@ Branches and header&apos;s axes must be ortho</source>
 <context>
     <name>pipeQM</name>
     <message>
-        <location filename="../CPipe.py" line="526"/>
+        <location filename="../CPipe.py" line="520"/>
         <source>QM for pipes</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>pivotBeam</name>
-    <message>
-        <location filename="../CFrame.py" line="228"/>
-        <source>pivotTheBeam</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CFrame.py" line="231"/>
-        <source>Rotates the beam around an axis (edge or center-of-curvature)</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>point2point</name>
-    <message>
-        <location filename="../CPipe.py" line="407"/>
-        <source>draw a tube point-to-point</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CPipe.py" line="408"/>
-        <source>Click on subsequent points.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>point2pointPipe</name>
     <message>
-        <location filename="../pForms.py" line="1468"/>
+        <location filename="../pForms.py" line="1462"/>
         <source>Reset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pForms.py" line="1474"/>
+        <location filename="../pForms.py" line="1468"/>
         <source> Move WP on click </source>
         <translation type="unfinished"></translation>
     </message>
@@ -2494,58 +2597,6 @@ Branches and header&apos;s axes must be ortho</source>
     </message>
 </context>
 <context>
-    <name>queryModel</name>
-    <message>
-        <location filename="../CUtils.py" line="43"/>
-        <source>query the model</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CUtils.py" line="44"/>
-        <source>Click objects to print infos</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>raiseup</name>
-    <message>
-        <location filename="../CPipe.py" line="331"/>
-        <source>Raise-up the support</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CPipe.py" line="332"/>
-        <source>Raise the support to the pipe</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>reverseBeam</name>
-    <message>
-        <location filename="../CFrame.py" line="84"/>
-        <source>Reverse orientation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CFrame.py" line="101"/>
-        <source>Reverse the orientation of selected objects</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>rotJoin</name>
-    <message>
-        <location filename="../CFrame.py" line="301"/>
-        <source>rotJoinEdge</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CFrame.py" line="304"/>
-        <source>Rotates and align the beam according another edge</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>rotWPForm</name>
     <message>
         <location filename="../uForms.py" line="178"/>
@@ -2555,72 +2606,6 @@ Branches and header&apos;s axes must be ortho</source>
     <message>
         <location filename="../uForms.py" line="182"/>
         <source>Rotate working plane</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>rotateWorkPlane</name>
-    <message>
-        <location filename="../CUtils.py" line="93"/>
-        <source>rotate Workplane</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CUtils.py" line="96"/>
-        <source>Spin the Draft working plane about one of its axes</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>selectSolids</name>
-    <message>
-        <location filename="../CUtils.py" line="212"/>
-        <source>Select solids</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CUtils.py" line="216"/>
-        <source>Grab all solids or those partially selected
- to export in .step format</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>shiftBeam</name>
-    <message>
-        <location filename="../CFrame.py" line="144"/>
-        <source>shiftTheBeam</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CFrame.py" line="147"/>
-        <source>Translate objects by vectors defined on existing geometry</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>spinSect</name>
-    <message>
-        <location filename="../CFrame.py" line="64"/>
-        <source>Spin beams by 45 deg.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CFrame.py" line="67"/>
-        <source>Rotates the section of the beam by 45 degrees</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>stretchBeam</name>
-    <message>
-        <location filename="../CFrame.py" line="250"/>
-        <source>stretchTheBeam</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../CFrame.py" line="253"/>
-        <source>Changes the length of the beam, either according a preselected edge or a direct input</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2719,7 +2704,7 @@ Branches and header&apos;s axes must be ortho</source>
 <context>
     <name>valveQM</name>
     <message>
-        <location filename="../CPipe.py" line="580"/>
+        <location filename="../CPipe.py" line="574"/>
         <source>QM for valves</source>
         <translation type="unfinished"></translation>
     </message>
