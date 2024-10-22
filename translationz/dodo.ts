@@ -5,228 +5,228 @@
     <name>App::Property</name>
     <message>
         <location filename="../pFeatures.py" line="124"/>
-        <location filename="../pFeatures.py" line="192"/>
-        <location filename="../pFeatures.py" line="594"/>
-        <location filename="../pFeatures.py" line="691"/>
-        <location filename="../pFeatures.py" line="1021"/>
+        <location filename="../pFeatures.py" line="214"/>
+        <location filename="../pFeatures.py" line="626"/>
+        <location filename="../pFeatures.py" line="723"/>
+        <location filename="../pFeatures.py" line="1053"/>
         <source>Outside diameter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pFeatures.py" line="130"/>
-        <location filename="../pFeatures.py" line="198"/>
-        <location filename="../pFeatures.py" line="481"/>
-        <location filename="../pFeatures.py" line="487"/>
-        <location filename="../pFeatures.py" line="600"/>
-        <location filename="../pFeatures.py" line="697"/>
+        <location filename="../pFeatures.py" line="220"/>
+        <location filename="../pFeatures.py" line="513"/>
+        <location filename="../pFeatures.py" line="519"/>
+        <location filename="../pFeatures.py" line="632"/>
+        <location filename="../pFeatures.py" line="729"/>
         <source>Wall thickness</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pFeatures.py" line="136"/>
-        <location filename="../pFeatures.py" line="204"/>
-        <location filename="../pFeatures.py" line="606"/>
-        <location filename="../pFeatures.py" line="1027"/>
+        <location filename="../pFeatures.py" line="226"/>
+        <location filename="../pFeatures.py" line="638"/>
+        <location filename="../pFeatures.py" line="1059"/>
         <source>Inside diameter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pFeatures.py" line="142"/>
-        <location filename="../pFeatures.py" line="1033"/>
+        <location filename="../pFeatures.py" line="1065"/>
         <source>Length of tube</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../pFeatures.py" line="148"/>
-        <location filename="../pFeatures.py" line="222"/>
-        <location filename="../pFeatures.py" line="515"/>
-        <location filename="../pFeatures.py" line="612"/>
+        <location filename="../pFeatures.py" line="244"/>
+        <location filename="../pFeatures.py" line="547"/>
+        <location filename="../pFeatures.py" line="644"/>
         <source>Section dim.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="210"/>
+        <location filename="../pFeatures.py" line="232"/>
         <source>Bend Angle</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="216"/>
-        <location filename="../pFeatures.py" line="1089"/>
+        <location filename="../pFeatures.py" line="238"/>
+        <location filename="../pFeatures.py" line="1121"/>
         <source>Bend Radius</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="327"/>
+        <location filename="../pFeatures.py" line="359"/>
         <source>Type of flange</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="333"/>
+        <location filename="../pFeatures.py" line="365"/>
         <source>Flange diameter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="339"/>
+        <location filename="../pFeatures.py" line="371"/>
         <source>Bore diameter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="345"/>
+        <location filename="../pFeatures.py" line="377"/>
         <source>Bolts distance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="351"/>
+        <location filename="../pFeatures.py" line="383"/>
         <source>Bolts hole diameter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="357"/>
+        <location filename="../pFeatures.py" line="389"/>
         <source>Thickness of flange</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="363"/>
+        <location filename="../pFeatures.py" line="395"/>
         <source>Nr. of bolts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="369"/>
+        <location filename="../pFeatures.py" line="401"/>
         <source>Thickness of raised face</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="375"/>
+        <location filename="../pFeatures.py" line="407"/>
         <source>Diameter of raised face</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="381"/>
+        <location filename="../pFeatures.py" line="413"/>
         <source>Length of welding neck</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="387"/>
+        <location filename="../pFeatures.py" line="419"/>
         <source>Diameter of welding neck</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="393"/>
+        <location filename="../pFeatures.py" line="425"/>
         <source>Outside diameter of pipe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="469"/>
+        <location filename="../pFeatures.py" line="501"/>
         <source>Major diameter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="475"/>
+        <location filename="../pFeatures.py" line="507"/>
         <source>Minor diameter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="497"/>
+        <location filename="../pFeatures.py" line="529"/>
         <source>Make the lenght variable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="503"/>
+        <location filename="../pFeatures.py" line="535"/>
         <source>Length of reduction</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="521"/>
+        <location filename="../pFeatures.py" line="553"/>
         <source>Concentric or Eccentric</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="685"/>
+        <location filename="../pFeatures.py" line="717"/>
         <source>the radius of bending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="703"/>
+        <location filename="../pFeatures.py" line="735"/>
         <source>The group.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="808"/>
+        <location filename="../pFeatures.py" line="840"/>
         <source>Type of pipeFeature</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="814"/>
+        <location filename="../pFeatures.py" line="846"/>
         <source>Type of clamp</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="820"/>
+        <location filename="../pFeatures.py" line="852"/>
         <source>Size of clamp</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="826"/>
+        <location filename="../pFeatures.py" line="858"/>
         <source>Arc diameter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="832"/>
+        <location filename="../pFeatures.py" line="864"/>
         <source>Overall height</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="838"/>
+        <location filename="../pFeatures.py" line="870"/>
         <source>Rod diameter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="844"/>
+        <location filename="../pFeatures.py" line="876"/>
         <source>Size of thread</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="852"/>
+        <location filename="../pFeatures.py" line="884"/>
         <source>Ports position relative to the origin of Shape</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="895"/>
+        <location filename="../pFeatures.py" line="927"/>
         <source>Tank&apos;s length</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="901"/>
+        <location filename="../pFeatures.py" line="933"/>
         <source>Tank&apos;s width</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="907"/>
+        <location filename="../pFeatures.py" line="939"/>
         <source>Tank&apos;s height</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="913"/>
+        <location filename="../pFeatures.py" line="945"/>
         <source>Thikness of tank&apos;s shell</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="919"/>
+        <location filename="../pFeatures.py" line="951"/>
         <source>Thikness of tank&apos;s top</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="1095"/>
+        <location filename="../pFeatures.py" line="1127"/>
         <source>The tubes of the branch.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="1101"/>
+        <location filename="../pFeatures.py" line="1133"/>
         <source>The curves of the branch.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="1107"/>
+        <location filename="../pFeatures.py" line="1139"/>
         <source>The path.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -234,20 +234,20 @@
 <context>
     <name>App::PropertyFloat</name>
     <message>
-        <location filename="../fFeatures.py" line="650"/>
-        <location filename="../fFeatures.py" line="973"/>
+        <location filename="../fFeatures.py" line="732"/>
+        <location filename="../fFeatures.py" line="1058"/>
         <source>The extension of the tail</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="658"/>
-        <location filename="../fFeatures.py" line="981"/>
+        <location filename="../fFeatures.py" line="740"/>
+        <location filename="../fFeatures.py" line="1066"/>
         <source>The extension of the head</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="666"/>
-        <location filename="../fFeatures.py" line="989"/>
+        <location filename="../fFeatures.py" line="748"/>
+        <location filename="../fFeatures.py" line="1074"/>
         <source>The rotation of the section</source>
         <translation type="unfinished"></translation>
     </message>
@@ -260,110 +260,110 @@
 <context>
     <name>App::PropertyLength</name>
     <message>
-        <location filename="../fFeatures.py" line="1223"/>
-        <location filename="../fFeatures.py" line="1276"/>
-        <location filename="../fFeatures.py" line="1347"/>
-        <location filename="../fFeatures.py" line="1388"/>
-        <location filename="../fFeatures.py" line="1429"/>
-        <location filename="../fFeatures.py" line="1470"/>
+        <location filename="../fFeatures.py" line="1308"/>
+        <location filename="../fFeatures.py" line="1361"/>
+        <location filename="../fFeatures.py" line="1432"/>
+        <location filename="../fFeatures.py" line="1473"/>
+        <location filename="../fFeatures.py" line="1514"/>
+        <location filename="../fFeatures.py" line="1555"/>
         <source>Width of the beam</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="1229"/>
-        <location filename="../fFeatures.py" line="1282"/>
-        <location filename="../fFeatures.py" line="1353"/>
-        <location filename="../fFeatures.py" line="1394"/>
-        <location filename="../fFeatures.py" line="1435"/>
-        <location filename="../fFeatures.py" line="1476"/>
-        <location filename="../fFeatures.py" line="1536"/>
-        <location filename="../fFeatures.py" line="1596"/>
+        <location filename="../fFeatures.py" line="1314"/>
+        <location filename="../fFeatures.py" line="1367"/>
+        <location filename="../fFeatures.py" line="1438"/>
+        <location filename="../fFeatures.py" line="1479"/>
+        <location filename="../fFeatures.py" line="1520"/>
+        <location filename="../fFeatures.py" line="1561"/>
+        <location filename="../fFeatures.py" line="1621"/>
+        <location filename="../fFeatures.py" line="1681"/>
         <source>Height of the beam</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="1235"/>
+        <location filename="../fFeatures.py" line="1320"/>
         <source>Thickness of the vertical sides</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="1243"/>
+        <location filename="../fFeatures.py" line="1328"/>
         <source>Thickness of the horizontal sides</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="1313"/>
+        <location filename="../fFeatures.py" line="1398"/>
         <source>Diameter of the beam</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="1319"/>
+        <location filename="../fFeatures.py" line="1404"/>
         <source>Thickness</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="1359"/>
-        <location filename="../fFeatures.py" line="1365"/>
+        <location filename="../fFeatures.py" line="1444"/>
+        <location filename="../fFeatures.py" line="1450"/>
         <source>Thickness of the webs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="1400"/>
-        <location filename="../fFeatures.py" line="1406"/>
-        <location filename="../fFeatures.py" line="1441"/>
+        <location filename="../fFeatures.py" line="1485"/>
+        <location filename="../fFeatures.py" line="1491"/>
+        <location filename="../fFeatures.py" line="1526"/>
         <source>Thickness of the web</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="1447"/>
+        <location filename="../fFeatures.py" line="1532"/>
         <source>Thickness of the flanges</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="1482"/>
+        <location filename="../fFeatures.py" line="1567"/>
         <source>Width of the flanges</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="1488"/>
-        <location filename="../fFeatures.py" line="1548"/>
-        <location filename="../fFeatures.py" line="1608"/>
+        <location filename="../fFeatures.py" line="1573"/>
+        <location filename="../fFeatures.py" line="1633"/>
+        <location filename="../fFeatures.py" line="1693"/>
         <source>Thickness 1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="1494"/>
-        <location filename="../fFeatures.py" line="1554"/>
-        <location filename="../fFeatures.py" line="1614"/>
+        <location filename="../fFeatures.py" line="1579"/>
+        <location filename="../fFeatures.py" line="1639"/>
+        <location filename="../fFeatures.py" line="1699"/>
         <source>Thickness 2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="1500"/>
-        <location filename="../fFeatures.py" line="1560"/>
-        <location filename="../fFeatures.py" line="1620"/>
+        <location filename="../fFeatures.py" line="1585"/>
+        <location filename="../fFeatures.py" line="1645"/>
+        <location filename="../fFeatures.py" line="1705"/>
         <source>Thickness 3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="1530"/>
-        <location filename="../fFeatures.py" line="1590"/>
+        <location filename="../fFeatures.py" line="1615"/>
+        <location filename="../fFeatures.py" line="1675"/>
         <source>Width of the bottom flange</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="1542"/>
-        <location filename="../fFeatures.py" line="1602"/>
+        <location filename="../fFeatures.py" line="1627"/>
+        <location filename="../fFeatures.py" line="1687"/>
         <source>Width of the top flange</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="1075"/>
+        <location filename="../pFeatures.py" line="1107"/>
         <source>Outside diameter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../pFeatures.py" line="1081"/>
+        <location filename="../pFeatures.py" line="1113"/>
         <source>Wall thickness</source>
         <translation type="unfinished"></translation>
     </message>
@@ -371,22 +371,22 @@
 <context>
     <name>App::PropertyLink</name>
     <message>
-        <location filename="../fFeatures.py" line="846"/>
+        <location filename="../fFeatures.py" line="931"/>
         <source>the edges</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="852"/>
+        <location filename="../fFeatures.py" line="937"/>
         <source>the profile</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="925"/>
+        <location filename="../fFeatures.py" line="1010"/>
         <source>The path.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="931"/>
+        <location filename="../fFeatures.py" line="1016"/>
         <source>The profile</source>
         <translation type="unfinished"></translation>
     </message>
@@ -394,31 +394,31 @@
 <context>
     <name>App::PropertyString</name>
     <message>
-        <location filename="../fFeatures.py" line="821"/>
-        <location filename="../fFeatures.py" line="913"/>
+        <location filename="../fFeatures.py" line="906"/>
+        <location filename="../fFeatures.py" line="998"/>
         <source>Type of frameFeature</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="827"/>
+        <location filename="../fFeatures.py" line="912"/>
         <source>Size of frame</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="835"/>
+        <location filename="../fFeatures.py" line="920"/>
         <source>The group.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../fFeatures.py" line="1217"/>
-        <location filename="../fFeatures.py" line="1270"/>
-        <location filename="../fFeatures.py" line="1307"/>
-        <location filename="../fFeatures.py" line="1341"/>
-        <location filename="../fFeatures.py" line="1382"/>
-        <location filename="../fFeatures.py" line="1423"/>
-        <location filename="../fFeatures.py" line="1464"/>
-        <location filename="../fFeatures.py" line="1524"/>
-        <location filename="../fFeatures.py" line="1584"/>
+        <location filename="../fFeatures.py" line="1302"/>
+        <location filename="../fFeatures.py" line="1355"/>
+        <location filename="../fFeatures.py" line="1392"/>
+        <location filename="../fFeatures.py" line="1426"/>
+        <location filename="../fFeatures.py" line="1467"/>
+        <location filename="../fFeatures.py" line="1508"/>
+        <location filename="../fFeatures.py" line="1549"/>
+        <location filename="../fFeatures.py" line="1609"/>
+        <location filename="../fFeatures.py" line="1669"/>
         <source>Type of section</source>
         <translation type="unfinished"></translation>
     </message>
@@ -441,7 +441,7 @@
 <context>
     <name>App::PropertyStringList</name>
     <message>
-        <location filename="../fFeatures.py" line="919"/>
+        <location filename="../fFeatures.py" line="1004"/>
         <source>The beams names</source>
         <translation type="unfinished"></translation>
     </message>
@@ -618,6 +618,49 @@
     <message>
         <location filename="../dialogz/beamstretch.ui" line="97"/>
         <source>Stretched end:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DialogCutList</name>
+    <message>
+        <location filename="../cut_list/resources/cut_list_dialog.ui" line="20"/>
+        <source>Create Cut List</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../cut_list/resources/cut_list_dialog.ui" line="48"/>
+        <source>Select Profile</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../cut_list/resources/cut_list_dialog.ui" line="120"/>
+        <source>Cut List Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../cut_list/resources/cut_list_dialog.ui" line="139"/>
+        <source>Group Parts by Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../cut_list/resources/cut_list_dialog.ui" line="180"/>
+        <source>Nesting Options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../cut_list/resources/cut_list_dialog.ui" line="192"/>
+        <source>Maximum Stock Length</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../cut_list/resources/cut_list_dialog.ui" line="202"/>
+        <source>Cut Width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../cut_list/resources/cut_list_dialog.ui" line="227"/>
+        <source>Use Nesting</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -800,78 +843,83 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogz/fbranch.ui" line="26"/>
+        <location filename="../dialogz/fbranch.ui" line="182"/>
         <source>&lt;no target selected&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogz/fbranch.ui" line="45"/>
+        <location filename="../dialogz/fbranch.ui" line="35"/>
         <source>&lt;degrees&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogz/fbranch.ui" line="55"/>
+        <location filename="../dialogz/fbranch.ui" line="45"/>
         <source>offset tail</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogz/fbranch.ui" line="62"/>
+        <location filename="../dialogz/fbranch.ui" line="52"/>
         <source>Trim/Extend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogz/fbranch.ui" line="69"/>
+        <location filename="../dialogz/fbranch.ui" line="59"/>
         <source>AddBeams</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogz/fbranch.ui" line="76"/>
-        <source>Add single beam</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../dialogz/fbranch.ui" line="83"/>
+        <location filename="../dialogz/fbranch.ui" line="66"/>
         <source>ChangeProfile</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogz/fbranch.ui" line="99"/>
+        <location filename="../dialogz/fbranch.ui" line="82"/>
         <source>&lt;name&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogz/fbranch.ui" line="119"/>
+        <location filename="../dialogz/fbranch.ui" line="102"/>
         <source>&lt;no item selected&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogz/fbranch.ui" line="135"/>
+        <location filename="../dialogz/fbranch.ui" line="118"/>
         <source>Redraw</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogz/fbranch.ui" line="148"/>
+        <location filename="../dialogz/fbranch.ui" line="131"/>
         <source>offset head</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogz/fbranch.ui" line="190"/>
+        <location filename="../dialogz/fbranch.ui" line="148"/>
         <source>RemoveBeams</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogz/fbranch.ui" line="197"/>
+        <location filename="../dialogz/fbranch.ui" line="155"/>
         <source>Get targets</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogz/fbranch.ui" line="207"/>
+        <location filename="../dialogz/fbranch.ui" line="165"/>
         <source>&lt;length&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../dialogz/fbranch.ui" line="214"/>
+        <location filename="../dialogz/fbranch.ui" line="172"/>
         <source>hotkeys: &quot;S&quot; to select, &quot;X&quot; to trim</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../dialogz/fbranch.ui" line="192"/>
+        <source>Slice Intersections</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../dialogz/fbranch.ui" line="237"/>
+        <source>Add single</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1085,21 +1133,6 @@
     <message>
         <location filename="../dialogz/sections.ui" line="14"/>
         <source>Beams profile editor</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../dialogz/sections.ui" line="138"/>
-        <source>t1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../dialogz/sections.ui" line="158"/>
-        <source>t2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../dialogz/sections.ui" line="178"/>
-        <source>t3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1461,35 +1494,48 @@ profile</source>
     </message>
 </context>
 <context>
+    <name>cutListCommand</name>
+    <message>
+        <location filename="../cut_list/cut_list_commands.py" line="15"/>
+        <source>createCutList</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../cut_list/cut_list_commands.py" line="16"/>
+        <source>Create a new Cut List from Dodo Beams</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>dodo</name>
     <message>
-        <location filename="../InitGui.py" line="158"/>
-        <location filename="../InitGui.py" line="172"/>
+        <location filename="../InitGui.py" line="161"/>
+        <location filename="../InitGui.py" line="175"/>
         <source>Utils</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../InitGui.py" line="162"/>
+        <location filename="../InitGui.py" line="165"/>
         <source>frametools</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../InitGui.py" line="168"/>
+        <location filename="../InitGui.py" line="171"/>
         <source>pypetools</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../InitGui.py" line="170"/>
+        <location filename="../InitGui.py" line="173"/>
         <source>Frame tools</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../InitGui.py" line="171"/>
+        <location filename="../InitGui.py" line="174"/>
         <source>Pype tools</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../InitGui.py" line="173"/>
+        <location filename="../InitGui.py" line="176"/>
         <source>QkMenus</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2211,7 +2257,7 @@ Branches and header&apos;s axes must be ortho</source>
 <context>
     <name>makeframenbranch</name>
     <message>
-        <location filename="../fFeatures.py" line="543"/>
+        <location filename="../fFeatures.py" line="625"/>
         <source>Travatura</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2232,7 +2278,7 @@ Branches and header&apos;s axes must be ortho</source>
 <context>
     <name>mouseActionB1</name>
     <message>
-        <location filename="../fFeatures.py" line="585"/>
+        <location filename="../fFeatures.py" line="667"/>
         <source>____TAIL</source>
         <translation type="unfinished"></translation>
     </message>

@@ -145,30 +145,8 @@ static char * dodo1_xpm[] = {
   def Initialize(self):
     import pForms
     import CUtils
-    self.utilsList=["selectSolids","queryModel","moveWorkPlane","offsetWorkPlane","rotateWorkPlane","hackedL","moveHandle","dpCalc"]
-    self.appendToolbar("Utils",self.utilsList)
-    Log ('Loading Utils: done\n')
     import CFrame
-    from cut_list.cut_list_commands import cutListCommand      
- 
-    self.frameList=["frameIt",
-                    "FrameBranchManager",
-                    "insertSection",
-                    "spinSect",
-                    "reverseBeam",
-                    "shiftBeam",
-                    "pivotBeam",
-                    "levelBeam",
-                    "alignEdge",
-                    "rotJoin",
-                    "alignFlange",
-                    "stretchBeam",
-                    "extend",
-                    "adjustFrameAngle",
-                    "insertPath",
-                    "createCutList"]
-    
-    self.appendToolbar("frameTools",self.frameList)
+    from cut_list.cut_list_commands import cutListCommand
     
     Log ('Loading Frame tools: done\n')
     import CPipe
@@ -183,7 +161,7 @@ static char * dodo1_xpm[] = {
     self.appendToolbar(translate("dodo","Utils"),self.utilsList)
     Log ('Loading Utils: done\n')
 
-    self.frameList=["frameIt","FrameBranchManager","insertSection","spinSect","reverseBeam","shiftBeam","pivotBeam","levelBeam","alignEdge","rotJoin","alignFlange","stretchBeam","extend","adjustFrameAngle","insertPath"]
+    self.frameList=["frameIt","FrameBranchManager","insertSection","spinSect","reverseBeam","shiftBeam","pivotBeam","levelBeam","alignEdge","rotJoin","alignFlange","stretchBeam","extend","adjustFrameAngle","insertPath","createCutList"]
     self.appendToolbar(translate("dodo","frametools"),self.frameList)
     Log ('Loading Frame tools: done\n')
 

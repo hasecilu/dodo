@@ -461,6 +461,7 @@ class frameBranchForm(dodoDialogs.protoTypeDialog):
         self.form.comboRatings.currentIndexChanged.connect(self.fillSizes)
         self.form.btnRemove.clicked.connect(self.removeBeams)
         self.form.btnAdd.clicked.connect(self.addBeams)
+        self.form.slicebtn.clicked.connect(self.makeMiter)
         self.form.btnProfile.clicked.connect(self.changeProfile)
         self.form.btnRefresh.clicked.connect(self.refresh)
         self.form.btnTargets.clicked.connect(self.selectAction)
@@ -519,6 +520,87 @@ class frameBranchForm(dodoDialogs.protoTypeDialog):
             if self.form.editLength.text():
                 beam.Height = float(self.form.editLength.text())
         FreeCAD.ActiveDocument.recompute()
+
+    def cutcorners(self):
+        import ArchCutPlane
+        sel=FreeCADGui.Selection.getSelection()
+        seldoc=FreeCADGui.ActiveDocument
+        if sel[0].FType=='FrameBranch':
+            pass
+            # for beam in sel[0].Beams:
+               # if seldoc.:
+               #  pass
+                # ArchCutPlane.cutComponentwithPlane(beam,)
+
+    def makeMiter(self):
+        """Get intersection between lines, generate a plane between lines & do a boolean diferente"""
+        sel = FreeCADGui.Selection.getSelection()
+        # FreeCAD.Console.PrintMessage('posicion de boceto:'+ str(sel[0].Placement.Rotation)+'\r\n')
+        i=0
+        intersectlines=[]
+        for element in sel[0].Geometry:
+            j=0
+            for subelement in sel[0].Geometry:
+                if (element.EndPoint != subelement.EndPoint) and (element.StartPoint != subelement.StartPoint):
+                    if element.intersectCC(subelement):
+                        # intersectlines.append(element)
+                        # intersectlines.append(subelement)
+                        interpoint=element.intersectCC(subelement)[0]
+                        # intersectpoint=FreeCAD.Vector(interpoint.X,interpoint.Y,interpoint.Z)
+                        FreeCAD.Console.PrintMessage('Segmento '+str(element)+' intersecta con segmento '+str(subelement)+' aqui:'+ str(interpoint)+'\r\n')
+                        resultv1=FreeCAD.Vector(element.EndPoint-element.StartPoint)
+                        resultv2=FreeCAD.Vector(subelement.EndPoint-subelement.StartPoint)
+                        bisectvector=fCmd.bisect(resultv1,resultv2)
+                        plane=FreeCAD.activeDocument().addObject("Part::Plane","myplane")
+                        plane.AttachmentSupport = sel[0].AttachmentSupport
+                        plane.MapMode = 'FlatFace'
+                        self.rotvector = element.StartPoint-FreeCAD.Vector(0,plane.Length/2,-plane.Length/2)
+                        plane.recompute()
+                        # self.CenterOfMass = plane.Shape.CenterOfMass
+                        self.placementrotplan = FreeCAD.Placement(self.rotvector,FreeCAD.Rotation(FreeCAD.Vector(0,1,0),90))
+                        plane.AttachmentOffset = self.placementrotplan
+                        # FreeCAD.Console.PrintMessage('Antes Angulo de arista a vector bisectriz: '+str((FreeCAD.Rotation(bisectvector,plane.Shape.normalAt(0,0)).Angle)*180/pi)+'\r\n')
+                        self.placementrelative = FreeCAD.Placement(FreeCAD.Vector(0,0,0),FreeCAD.Rotation(bisectvector,plane.Shape.normalAt(0,0)),element.StartPoint).multiply(self.placementrotplan)
+                        self.placementfinal = FreeCAD.Placement(FreeCAD.Vector(0,0,0),FreeCAD.Rotation(FreeCAD.Vector(0,0,1),90),element.StartPoint).multiply(self.placementrelative)
+                        plane.AttachmentOffset = self.placementfinal
+                j=j+1
+            if False:
+                vend1=FreeCAD.Vector(sel[0].Geometry[i-1].EndPoint)
+                vstart1=FreeCAD.Vector(sel[0].Geometry[i-1].StartPoint)
+                resultv1=vend1-vstart1
+                vend2=FreeCAD.Vector(sel[0].Geometry[i].EndPoint)
+                vstart2=FreeCAD.Vector(sel[0].Geometry[i].StartPoint)
+                resultv2=vend2-vstart2
+                crossvector=resultv1.cross(resultv2)
+                # FreeCAD.Console.PrintMessage(crossvector.Length)
+                bisectvector=fCmd.bisect(resultv1,resultv2)
+                # FreeCAD.Console.PrintMessage(intersectpoint)
+                # FreeCAD.Console.PrintMessage(crossvector)
+                # linseg=Part.LineSegment(intersectpoint,crossvector)
+                # linseg=Part.LineSegment(intersectpoint,bisectvector)
+                # obj=FreeCAD.ActiveDocument.addObject("Part::Feature", "Line")
+                # obj.Shape = linseg.toShape()
+                # obj.Placement = FreeCAD.Placement(FreeCAD.Vector(0,0,0),FreeCAD.Rotation(FreeCAD.Vector(1,0,0),90))
+                plane=FreeCAD.activeDocument().addObject("Part::Plane","myplane")
+                plane.AttachmentSupport = sel[0].AttachmentSupport
+                plane.MapMode = 'FlatFace'
+                self.rotvector = element.StartPoint-FreeCAD.Vector(0,plane.Length/2,-plane.Length/2)
+                plane.recompute()
+                # self.CenterOfMass = plane.Shape.CenterOfMass
+                self.placementrotplan = FreeCAD.Placement(self.rotvector,FreeCAD.Rotation(FreeCAD.Vector(0,1,0),90))
+                plane.AttachmentOffset = self.placementrotplan
+                # FreeCAD.Console.PrintMessage('Antes Angulo de arista a vector bisectriz: '+str((FreeCAD.Rotation(bisectvector,plane.Shape.normalAt(0,0)).Angle)*180/pi)+'\r\n')
+                self.placementrelative = FreeCAD.Placement(FreeCAD.Vector(0,0,0),FreeCAD.Rotation(bisectvector,plane.Shape.normalAt(0,0)),element.StartPoint).multiply(self.placementrotplan)
+                self.placementfinal = FreeCAD.Placement(FreeCAD.Vector(0,0,0),FreeCAD.Rotation(FreeCAD.Vector(0,0,1),90),element.StartPoint).multiply(self.placementrelative)
+                plane.AttachmentOffset = self.placementfinal
+            # if i==0:
+            #     FreeCADGui.ActiveDocument.myplane.PointSize = 10
+            #     FreeCADGui.ActiveDocument.myplane.PointColor = 100,50,20
+            # elif i>=1:
+            #     obj=FreeCADGui.ActiveDocument.getObject('myplane00'+str(i))
+            #     obj.PointSize = 10
+            #     obj.PointColor = 100,50,20
+            i=i+1
 
     def accept(self):
         if FreeCAD.ActiveDocument:
