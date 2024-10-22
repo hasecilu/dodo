@@ -40,8 +40,8 @@ class queryModel:
                 os.path.dirname(os.path.abspath(__file__)), "iconz", "query.svg"
             ),
             "Accel": "Q,M",
-            "MenuText": QT_TRANSLATE_NOOP("queryModel", "query the model"),
-            "ToolTip": QT_TRANSLATE_NOOP("queryModel", "Click objects to print infos"),
+            "MenuText": QT_TRANSLATE_NOOP("Quetzal_QueryModel", "query the model"),
+            "ToolTip": QT_TRANSLATE_NOOP("Quetzal_QueryModel", "Click objects to print infos"),
         }
 
 
@@ -70,9 +70,9 @@ class moveWorkPlane:
                 os.path.dirname(os.path.abspath(__file__)), "iconz", "grid.svg"
             ),
             "Accel": "A,W",
-            "MenuText": QT_TRANSLATE_NOOP("moveWorkPlane", "align Workplane"),
+            "MenuText": QT_TRANSLATE_NOOP("Quetzal_MoveWorkPlane", "align Workplane"),
             "ToolTip": QT_TRANSLATE_NOOP(
-                "moveWorkPlane",
+                "Quetzal_MoveWorkPlane",
                 "Moves and rotates the drafting workplane with points, edges and faces",
             ),
         }
@@ -90,9 +90,9 @@ class rotateWorkPlane:
                 os.path.dirname(os.path.abspath(__file__)), "iconz", "rotWP.svg"
             ),
             "Accel": "R,W",
-            "MenuText": QT_TRANSLATE_NOOP("rotateWorkPlane", "rotate Workplane"),
+            "MenuText": QT_TRANSLATE_NOOP("Quetzal_RotateWorkPlane", "rotate Workplane"),
             "ToolTip": QT_TRANSLATE_NOOP(
-                "rotateWorkPlane", "Spin the Draft working plane about one of its axes"
+                "Quetzal_RotateWorkPlane", "Spin the Draft working plane about one of its axes"
             ),
         }
 
@@ -114,8 +114,8 @@ class offsetWorkPlane:
 
             offset = qid.getInt(
                 None,
-                translate("offsetWorkPlane", "Offset Work Plane"),
-                translate("offsetWorkPlane", "Offset: "),
+                translate("Quetzal_OffsetWorkPlane", "Offset Work Plane"),
+                translate("Quetzal_OffsetWorkPlane", "Offset: "),
             )
             if offset[1] > 0:
                 uCmd.offsetWP(offset[0])
@@ -128,9 +128,9 @@ class offsetWorkPlane:
                 os.path.dirname(os.path.abspath(__file__)), "iconz", "offsetWP.svg"
             ),
             "Accel": "O,W",
-            "MenuText": QT_TRANSLATE_NOOP("offsetWorkPlane", "offset Workplane"),
+            "MenuText": QT_TRANSLATE_NOOP("Quetzal_OffsetWorkPlane", "offset Workplane"),
             "ToolTip": QT_TRANSLATE_NOOP(
-                "offsetWorkPlane", "Shifts the WP alongg its normal."
+                "Quetzal_OffsetWorkPlane", "Shifts the WP alongg its normal."
             ),
         }
 
@@ -147,9 +147,9 @@ class hackedL:
                 os.path.dirname(os.path.abspath(__file__)), "iconz", "hackedL.svg"
             ),
             "Accel": "H,L",
-            "MenuText": QT_TRANSLATE_NOOP("hackedL", "draw a DWire"),
+            "MenuText": QT_TRANSLATE_NOOP("Quetzal_HackedL", "draw a DWire"),
             "ToolTip": QT_TRANSLATE_NOOP(
-                "hackedL",
+                "Quetzal_HackedL",
                 "WP is re-positioned at each point. Possible to spin and offset it.",
             ),
         }
@@ -168,10 +168,8 @@ class moveHandle:
                 os.path.dirname(os.path.abspath(__file__)), "iconz", "moveHandle.svg"
             ),
             "Accel": "M,H",
-            "MenuText": QT_TRANSLATE_NOOP("moveHandle", "Move objects"),
-            "ToolTip": QT_TRANSLATE_NOOP(
-                "moveHandle", "Move quickly objects inside viewport"
-            ),
+            "MenuText": QT_TRANSLATE_NOOP("Quetzal_MoveHandle", "Move objects"),
+            "ToolTip": QT_TRANSLATE_NOOP("Quetzal_MoveHandle", "Move quickly objects inside viewport"),
         }
 
 
@@ -186,9 +184,9 @@ class dpCalc:
             "Pixmap": os.path.join(
                 os.path.dirname(os.path.abspath(__file__)), "iconz", "delta.svg"
             ),
-            "MenuText": QT_TRANSLATE_NOOP("dpCalc", "Pressure loss calculator"),
+            "MenuText": QT_TRANSLATE_NOOP("Quetzal_DpCalc", "Pressure loss calculator"),
             "ToolTip": QT_TRANSLATE_NOOP(
-                "dpCalc",
+                "Quetzal_DpCalc",
                 'Calculate pressure loss in "pypes" using ChEDL libraries.\n See __doc__ of the module for futher information.',
             ),
         }
@@ -209,9 +207,9 @@ class selectSolids:
             "Pixmap": os.path.join(
                 os.path.dirname(os.path.abspath(__file__)), "iconz", "solids.svg"
             ),
-            "MenuText": QT_TRANSLATE_NOOP("selectSolids", "Select solids"),
+            "MenuText": QT_TRANSLATE_NOOP("Quetzal_SelectSolids", "Select solids"),
             "ToolTip": QT_TRANSLATE_NOOP(
-                "selectSolids",
+                "Quetzal_SelectSolids",
                 "Grab all solids or those partially selected\n to export in .step format",
             ),
         }
@@ -220,11 +218,11 @@ class selectSolids:
 # ---------------------------------------------------------------------------
 # Adds the commands to the FreeCAD command manager
 # ---------------------------------------------------------------------------
-addCommand("queryModel", queryModel())
-addCommand("moveWorkPlane", moveWorkPlane())
-addCommand("rotateWorkPlane", rotateWorkPlane())
-addCommand("offsetWorkPlane", offsetWorkPlane())
-addCommand("hackedL", hackedL())
-addCommand("moveHandle", moveHandle())
-addCommand("dpCalc", dpCalc())
-addCommand("selectSolids", selectSolids())
+addCommand("Quetzal_QueryModel", queryModel())
+addCommand("Quetzal_MoveWorkPlane", moveWorkPlane())
+addCommand("Quetzal_RotateWorkPlane", rotateWorkPlane())
+addCommand("Quetzal_OffsetWorkPlane", offsetWorkPlane())
+addCommand("Quetzal_HackedL", hackedL())
+addCommand("Quetzal_MoveHandle", moveHandle())
+addCommand("Quetzal_DpCalc", dpCalc())
+addCommand("Quetzal_SelectSolids", selectSolids())

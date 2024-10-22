@@ -532,7 +532,7 @@ toolList = [
     "flangeQM",
     "valveQM",
     "capQM",
-]  # ["insertPipe","insertElbow","insertReduct","insertCap","insertValve","insertFlange","insertUbolt"]
+]  # ["Quetzal_InsertPipe","Quetzal_InsertElbow","Quetzal_InsertReduct","Quetzal_InsertCap","Quetzal_InsertValve","Quetzal_InsertFlange","Quetzal_InsertUbolt"]
 compositingManager = True
 if QtCore.qVersion() < "5":
     windowShadow = False
