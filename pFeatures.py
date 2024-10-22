@@ -526,7 +526,7 @@ class Reduct(pypeType):
             "App::PropertyBool",
             "calcH",
             "Reduct",
-            QT_TRANSLATE_NOOP("App::Property", "Make the lenght variable"),
+            QT_TRANSLATE_NOOP("App::Property", "Make the length variable"),
         )
         obj.addProperty(
             "App::PropertyLength",

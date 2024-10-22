@@ -130,7 +130,7 @@ class offsetWorkPlane:
             "Accel": "O,W",
             "MenuText": QT_TRANSLATE_NOOP("Quetzal_OffsetWorkPlane", "offset Workplane"),
             "ToolTip": QT_TRANSLATE_NOOP(
-                "Quetzal_OffsetWorkPlane", "Shifts the WP alongg its normal."
+                "Quetzal_OffsetWorkPlane", "Shifts the WP along its normal."
             ),
         }
 
