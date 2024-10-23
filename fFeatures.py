@@ -25,6 +25,7 @@ from PySide2.QtWidgets import QComboBox
 from PySide2.QtWidgets import QHBoxLayout
 from PySide2.QtWidgets import QVBoxLayout
 from PySide2.QtWidgets import QPushButton
+
 # from DraftGui import translate
 from draftutils.translate import translate
 
@@ -727,25 +728,19 @@ class frameBranchForm(dodoDialogs.protoTypeDialog):
                     "App::PropertyFloat",
                     "tailOffset",
                     "FrameBranch",
-                    QT_TRANSLATE_NOOP(
-                        "App::PropertyFloat", "The extension of the tail"
-                    ),
+                    QT_TRANSLATE_NOOP("App::Property", "The extension of the tail"),
                 )
                 beam.addProperty(
                     "App::PropertyFloat",
                     "headOffset",
                     "FrameBranch",
-                    QT_TRANSLATE_NOOP(
-                        "App::PropertyFloat", "The extension of the head"
-                    ),
+                    QT_TRANSLATE_NOOP("App::Property", "The extension of the head"),
                 )
                 beam.addProperty(
                     "App::PropertyFloat",
                     "spin",
                     "FrameBranch",
-                    QT_TRANSLATE_NOOP(
-                        "App::PropertyFloat", "The rotation of the section"
-                    ),
+                    QT_TRANSLATE_NOOP("App::Property", "The rotation of the section"),
                 )
                 if int(FreeCAD.Version()[1]) > 19:  # 20220704
                     beam.addExtension("Part::AttachExtensionPython")
@@ -903,13 +898,13 @@ class FrameLine(object):
             "App::PropertyString",
             "FType",
             "FrameLine",
-            QT_TRANSLATE_NOOP("App::PropertyString", "Type of frameFeature"),
+            QT_TRANSLATE_NOOP("App::Property", "Type of frameFeature"),
         ).FType = "FrameLine"
         obj.addProperty(
             "App::PropertyString",
             "FSize",
             "FrameLine",
-            QT_TRANSLATE_NOOP("App::PropertyString", "Size of frame"),
+            QT_TRANSLATE_NOOP("App::Property", "Size of frame"),
         ).FSize = section
         if lab:
             obj.Label = lab
@@ -928,13 +923,13 @@ class FrameLine(object):
             "App::PropertyLink",
             "Base",
             "FrameLine",
-            QT_TRANSLATE_NOOP("App::PropertyLink", "the edges"),
+            QT_TRANSLATE_NOOP("App::Property", "the edges"),
         )
         obj.addProperty(
             "App::PropertyLink",
             "Profile",
             "FrameLine",
-            QT_TRANSLATE_NOOP("App::PropertyLink", "the profile"),
+            QT_TRANSLATE_NOOP("App::Property", "the profile"),
         )
 
     def onChanged(self, fp, prop):
@@ -995,25 +990,25 @@ class FrameBranch(object):
             "App::PropertyString",
             "FType",
             "FrameBranch",
-            QT_TRANSLATE_NOOP("App::PropertyString", "Type of frameFeature"),
+            QT_TRANSLATE_NOOP("App::Property", "Type of frameFeature"),
         ).FType = "FrameBranch"
         obj.addProperty(
             "App::PropertyStringList",
             "Beams",
             "FrameBranch",
-            QT_TRANSLATE_NOOP("App::PropertyStringList", "The beams names"),
+            QT_TRANSLATE_NOOP("App::Property", "The beams names"),
         )
         obj.addProperty(
             "App::PropertyLink",
             "Base",
             "FrameBranch",
-            QT_TRANSLATE_NOOP("App::PropertyLink", "The path."),
+            QT_TRANSLATE_NOOP("App::Property", "The path."),
         ).Base = base
         obj.addProperty(
             "App::PropertyLink",
             "Profile",
             "FrameBranch",
-            QT_TRANSLATE_NOOP("App::PropertyLink", "The profile"),
+            QT_TRANSLATE_NOOP("App::Property", "The profile"),
         ).Profile = profile
         self.redraw(obj)
 
@@ -1053,25 +1048,19 @@ class FrameBranch(object):
                     "App::PropertyFloat",
                     "tailOffset",
                     "FrameBranch",
-                    QT_TRANSLATE_NOOP(
-                        "App::PropertyFloat", "The extension of the tail"
-                    ),
+                    QT_TRANSLATE_NOOP("App::Property", "The extension of the tail"),
                 )
                 beam.addProperty(
                     "App::PropertyFloat",
                     "headOffset",
                     "FrameBranch",
-                    QT_TRANSLATE_NOOP(
-                        "App::PropertyFloat", "The extension of the head"
-                    ),
+                    QT_TRANSLATE_NOOP("App::Property", "The extension of the head"),
                 )
                 beam.addProperty(
                     "App::PropertyFloat",
                     "spin",
                     "FrameBranch",
-                    QT_TRANSLATE_NOOP(
-                        "App::PropertyFloat", "The rotation of the section"
-                    ),
+                    QT_TRANSLATE_NOOP("App::Property", "The rotation of the section"),
                 )
                 if int(FreeCAD.Version()[1]) > 19:  # 20220704
                     beam.addExtension("Part::AttachExtensionPython")
@@ -1299,33 +1288,31 @@ class _ProfileRH(_Profile):
             "App::PropertyString",
             "FType",
             "Profile",
-            QT_TRANSLATE_NOOP("App::PropertyString", "Type of section"),
+            QT_TRANSLATE_NOOP("App::Property", "Type of section"),
         ).FType = "RH"
         obj.addProperty(
             "App::PropertyLength",
             "W",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Width of the beam"),
+            QT_TRANSLATE_NOOP("App::Property", "Width of the beam"),
         ).W = profile[4]
         obj.addProperty(
             "App::PropertyLength",
             "H",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Height of the beam"),
+            QT_TRANSLATE_NOOP("App::Property", "Height of the beam"),
         ).H = profile[5]
         obj.addProperty(
             "App::PropertyLength",
             "t1",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness of the vertical sides"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness of the vertical sides"),
         ).t1 = profile[6]
         obj.addProperty(
             "App::PropertyLength",
             "t2",
             "Draft",
-            QT_TRANSLATE_NOOP(
-                "App::PropertyLength", "Thickness of the horizontal sides"
-            ),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness of the horizontal sides"),
         ).t2 = profile[7]
         _Profile.__init__(self, obj, profile)
 
@@ -1352,19 +1339,19 @@ class _ProfileR(_Profile):
             "App::PropertyString",
             "FType",
             "Profile",
-            QT_TRANSLATE_NOOP("App::PropertyString", "Type of section"),
+            QT_TRANSLATE_NOOP("App::Property", "Type of section"),
         ).FType = "R"
         obj.addProperty(
             "App::PropertyLength",
             "W",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Width of the beam"),
+            QT_TRANSLATE_NOOP("App::Property", "Width of the beam"),
         ).W = profile[4]
         obj.addProperty(
             "App::PropertyLength",
             "H",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Height of the beam"),
+            QT_TRANSLATE_NOOP("App::Property", "Height of the beam"),
         ).H = profile[5]
         _Profile.__init__(self, obj, profile)
 
@@ -1389,19 +1376,19 @@ class _ProfileCircle(_Profile):
             "App::PropertyString",
             "FType",
             "Profile",
-            QT_TRANSLATE_NOOP("App::PropertyString", "Type of section"),
+            QT_TRANSLATE_NOOP("App::Property", "Type of section"),
         ).FType = "circle"
         obj.addProperty(
             "App::PropertyLength",
             "D",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Diameter of the beam"),
+            QT_TRANSLATE_NOOP("App::Property", "Diameter of the beam"),
         ).D = profile[4]
         obj.addProperty(
             "App::PropertyLength",
             "t1",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness"),
         ).t1 = profile[5]
         _Profile.__init__(self, obj, profile)
 
@@ -1423,31 +1410,31 @@ class _ProfileL(_Profile):
             "App::PropertyString",
             "FType",
             "Profile",
-            QT_TRANSLATE_NOOP("App::PropertyString", "Type of section"),
+            QT_TRANSLATE_NOOP("App::Property", "Type of section"),
         ).FType = "L"
         obj.addProperty(
             "App::PropertyLength",
             "W",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Width of the beam"),
+            QT_TRANSLATE_NOOP("App::Property", "Width of the beam"),
         ).W = profile[4]
         obj.addProperty(
             "App::PropertyLength",
             "H",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Height of the beam"),
+            QT_TRANSLATE_NOOP("App::Property", "Height of the beam"),
         ).H = profile[5]
         obj.addProperty(
             "App::PropertyLength",
             "t1",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness of the webs"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness of the webs"),
         ).t1 = profile[6]
         obj.addProperty(
             "App::PropertyLength",
             "t2",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness of the webs"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness of the webs"),
         ).t2 = profile[7]
         _Profile.__init__(self, obj, profile)
 
@@ -1464,31 +1451,31 @@ class _ProfileT(_Profile):
             "App::PropertyString",
             "FType",
             "Profile",
-            QT_TRANSLATE_NOOP("App::PropertyString", "Type of section"),
+            QT_TRANSLATE_NOOP("App::Property", "Type of section"),
         ).FType = "T"
         obj.addProperty(
             "App::PropertyLength",
             "W",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Width of the beam"),
+            QT_TRANSLATE_NOOP("App::Property", "Width of the beam"),
         ).W = profile[4]
         obj.addProperty(
             "App::PropertyLength",
             "H",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Height of the beam"),
+            QT_TRANSLATE_NOOP("App::Property", "Height of the beam"),
         ).H = profile[5]
         obj.addProperty(
             "App::PropertyLength",
             "t1",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness of the web"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness of the web"),
         ).t1 = profile[6]
         obj.addProperty(
             "App::PropertyLength",
             "t2",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness of the web"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness of the web"),
         ).t2 = profile[7]
         _Profile.__init__(self, obj, profile)
 
@@ -1505,31 +1492,31 @@ class _ProfileZ(_Profile):
             "App::PropertyString",
             "FType",
             "Profile",
-            QT_TRANSLATE_NOOP("App::PropertyString", "Type of section"),
+            QT_TRANSLATE_NOOP("App::Property", "Type of section"),
         ).FType = "Z"
         obj.addProperty(
             "App::PropertyLength",
             "W",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Width of the beam"),
+            QT_TRANSLATE_NOOP("App::Property", "Width of the beam"),
         ).W = profile[5]
         obj.addProperty(
             "App::PropertyLength",
             "H",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Height of the beam"),
+            QT_TRANSLATE_NOOP("App::Property", "Height of the beam"),
         ).H = profile[4]
         obj.addProperty(
             "App::PropertyLength",
             "t1",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness of the web"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness of the web"),
         ).t1 = profile[6]
         obj.addProperty(
             "App::PropertyLength",
             "t2",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness of the flanges"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness of the flanges"),
         ).t2 = profile[7]
         _Profile.__init__(self, obj, profile)
 
@@ -1546,43 +1533,43 @@ class _ProfileOmega(_Profile):
             "App::PropertyString",
             "FType",
             "Profile",
-            QT_TRANSLATE_NOOP("App::PropertyString", "Type of section"),
+            QT_TRANSLATE_NOOP("App::Property", "Type of section"),
         ).FType = "omega"
         obj.addProperty(
             "App::PropertyLength",
             "W",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Width of the beam"),
+            QT_TRANSLATE_NOOP("App::Property", "Width of the beam"),
         ).W = profile[4]
         obj.addProperty(
             "App::PropertyLength",
             "H",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Height of the beam"),
+            QT_TRANSLATE_NOOP("App::Property", "Height of the beam"),
         ).H = profile[5]
         obj.addProperty(
             "App::PropertyLength",
             "D",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Width of the flanges"),
+            QT_TRANSLATE_NOOP("App::Property", "Width of the flanges"),
         ).D = profile[6]
         obj.addProperty(
             "App::PropertyLength",
             "t1",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness 1"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness 1"),
         ).t1 = profile[7]
         obj.addProperty(
             "App::PropertyLength",
             "t2",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness 2"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness 2"),
         ).t2 = profile[8]
         obj.addProperty(
             "App::PropertyLength",
             "t3",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness 3"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness 3"),
         ).t3 = profile[9]
         _Profile.__init__(self, obj, profile)
 
@@ -1606,43 +1593,43 @@ class _ProfileH(_Profile):
             "App::PropertyString",
             "FType",
             "Profile",
-            QT_TRANSLATE_NOOP("App::PropertyString", "Type of section"),
+            QT_TRANSLATE_NOOP("App::Property", "Type of section"),
         ).FType = "H"
         obj.addProperty(
             "App::PropertyLength",
             "W",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Width of the bottom flange"),
+            QT_TRANSLATE_NOOP("App::Property", "Width of the bottom flange"),
         ).W = profile[4]
         obj.addProperty(
             "App::PropertyLength",
             "H",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Height of the beam"),
+            QT_TRANSLATE_NOOP("App::Property", "Height of the beam"),
         ).H = profile[5]
         obj.addProperty(
             "App::PropertyLength",
             "D",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Width of the top flange"),
+            QT_TRANSLATE_NOOP("App::Property", "Width of the top flange"),
         ).D = profile[6]
         obj.addProperty(
             "App::PropertyLength",
             "t1",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness 1"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness 1"),
         ).t1 = profile[7]
         obj.addProperty(
             "App::PropertyLength",
             "t2",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness 2"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness 2"),
         ).t2 = profile[8]
         obj.addProperty(
             "App::PropertyLength",
             "t3",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness 3"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness 3"),
         ).t3 = profile[9]
         _Profile.__init__(self, obj, profile)
 
@@ -1666,43 +1653,43 @@ class _ProfileU(_Profile):
             "App::PropertyString",
             "FType",
             "Profile",
-            QT_TRANSLATE_NOOP("App::PropertyString", "Type of section"),
+            QT_TRANSLATE_NOOP("App::Property", "Type of section"),
         ).FType = "U"
         obj.addProperty(
             "App::PropertyLength",
             "W",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Width of the bottom flange"),
+            QT_TRANSLATE_NOOP("App::Property", "Width of the bottom flange"),
         ).W = profile[4]
         obj.addProperty(
             "App::PropertyLength",
             "H",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Height of the beam"),
+            QT_TRANSLATE_NOOP("App::Property", "Height of the beam"),
         ).H = profile[5]
         obj.addProperty(
             "App::PropertyLength",
             "D",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Width of the top flange"),
+            QT_TRANSLATE_NOOP("App::Property", "Width of the top flange"),
         ).D = profile[6]
         obj.addProperty(
             "App::PropertyLength",
             "t1",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness 1"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness 1"),
         ).t1 = profile[7]
         obj.addProperty(
             "App::PropertyLength",
             "t2",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness 2"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness 2"),
         ).t2 = profile[8]
         obj.addProperty(
             "App::PropertyLength",
             "t3",
             "Draft",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Thickness 3"),
+            QT_TRANSLATE_NOOP("App::Property", "Thickness 3"),
         ).t3 = profile[9]
         _Profile.__init__(self, obj, profile)
 

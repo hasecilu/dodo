@@ -28,26 +28,26 @@ class pypeType(object):
             "App::PropertyString",
             "PType",
             "PBase",
-            QT_TRANSLATE_NOOP("App::PropertyString", "Type of tubeFeature"),
+            QT_TRANSLATE_NOOP("App::Property", "Type of tubeFeature"),
         ).PType
         obj.addProperty(
             "App::PropertyString",
             "PRating",
             "PBase",
-            QT_TRANSLATE_NOOP("App::PropertyString", "Rating of pipeFeature"),
+            QT_TRANSLATE_NOOP("App::Property", "Rating of pipeFeature"),
         ).PRating
         obj.addProperty(
             "App::PropertyString",
             "PSize",
             "PBase",
-            QT_TRANSLATE_NOOP("App::PropertyString", "Nominal diameter"),
+            QT_TRANSLATE_NOOP("App::Property", "Nominal diameter"),
         ).PSize
         obj.addProperty(
             "App::PropertyVectorList",
             "Ports",
             "PBase",
             QT_TRANSLATE_NOOP(
-                "App::PropertyVectorList",
+                "App::Property",
                 "Ports position relative to the origin of Shape",
             ),
         )
@@ -55,7 +55,7 @@ class pypeType(object):
             "App::PropertyFloat",
             "Kv",
             "PBase",
-            QT_TRANSLATE_NOOP("App::PropertyFloat", "Flow factor (m3/h/bar)"),
+            QT_TRANSLATE_NOOP("App::Property", "Flow factor (m3/h/bar)"),
         ).Kv
         if int(FreeCAD.Version()[1]) > 19:
             obj.addExtension("Part::AttachExtensionPython")
@@ -879,9 +879,7 @@ class Ubolt:
             "App::PropertyVectorList",
             "Ports",
             "PBase",
-            QT_TRANSLATE_NOOP(
-                "App::Property", "Ports position relative to the origin of Shape"
-            ),
+            QT_TRANSLATE_NOOP("App::Property", "Ports position relative to the origin of Shape"),
         )
 
     def onChanged(self, fp, prop):
@@ -1104,13 +1102,13 @@ class PypeBranch2(pypeType):  # use AttachExtensionPython
             "App::PropertyLength",
             "OD",
             "PypeBranch",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Outside diameter"),
+            QT_TRANSLATE_NOOP("App::Property", "Outside diameter"),
         ).OD = OD
         obj.addProperty(
             "App::PropertyLength",
             "thk",
             "PypeBranch",
-            QT_TRANSLATE_NOOP("App::PropertyLength", "Wall thickness"),
+            QT_TRANSLATE_NOOP("App::Property", "Wall thickness"),
         ).thk = thk
         if not BR:
             BR = 0.75 * OD
