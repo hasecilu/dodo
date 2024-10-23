@@ -19,12 +19,6 @@ x = mw.x() + int(mw.width() / 20)  # 100
 y = max(300, int(mw.height() / 3))  # 350
 
 
-def getLanguagePath():
-    import os
-    notnormalized = os.path.join(os.path.dirname(__file__), "translationz")
-    return os.path.normpath(notnormalized)
-
-
 class redrawDialog(QDialog):
     def __init__(self):
         super(redrawDialog, self).__init__()
